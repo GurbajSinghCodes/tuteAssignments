@@ -1,0 +1,24 @@
+.image {
+    padding: 10vh 25vw
+}
+
+img {
+    border: 2px solid black;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(30deg, rgb(134, 227, 134), rgb(59, 227, 227), rgb(132, 132, 62));
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+button:hover {
+    filter: brightness(1.1);
+    font-size: larger;
+}
