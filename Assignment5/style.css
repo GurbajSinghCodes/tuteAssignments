@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    --themecolor: rgb(1, 181, 253)
+}
+
+body {
+    background-color: rgb(234, 234, 234);
+}
+
+/* Navbar */
+nav {
+    position: relative;
+    height: 10vh;
+    background-color: white;
+    padding: 5px;
+
+}
+
+.logo {
+    position: absolute;
+    left: 1%;
+    top: 55%;
+    transform: translateY(-50%);
+
+}
+
+.username {
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+
+.logo img {
+    display: inline-block;
+    height: 60px;
+}
+
+nav ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    list-style: none;
+    transform: translate(-50%, -50%);
+}
+
+nav li {
+    padding: 10px;
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(179, 178, 178);
+}
+
+.username {
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgba(201, 231, 243, 0.6);
+    color: var(--themecolor);
+    font-weight: 700;
+}
+
+/* Hero Section */
+.main {
+    position: relative;
+    padding: 10vh;
+}
+
+.left,
+.right {
+    position: absolute;
+    width: 30vw;
+    padding: 20px;
+}
+
+/* Left Section */
+.left {
+    left: 10vw;
+}
+
+.left h1 {
+    margin: 30px 0;
+}
+
+.left #heading {
+    color: var(--themecolor);
+}
+
+.left p {
+    color: rgb(179, 178, 178);
+}
+
+#bookbtn {
+    color: white;
+    background-color: var(--themecolor);
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    font-size: large;
+}
+
+/* Right Section */
+.right {
+    right: 10vw;
+}
+
+.right img {
+    width: fit-content;
+    height: 70vh;
+}
