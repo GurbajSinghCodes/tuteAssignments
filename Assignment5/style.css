@@ -113,6 +113,5 @@ nav li {
 }
 
 .right img {
-    width: fit-content;
-    height: 70vh;
+    width: 30vw;
 }
