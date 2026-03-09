@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: calibri;
+}
+
+.container {
+    height: 99vh;
+    /* 100vh brings in the scrollbar please suggest in feedback how to fix that */
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(240, 253, 255);
+}
+
+.image {
+    text-align: left;
+    width: 50vw;
+}
+
+img {
+    height: 100%;
+    max-width: 50vw;
+    object-fit: contain;
+}
+
+.form {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.form h2 {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    padding: 3px 0;
+}
+
+input {
+    font-size: 14px;
+    width: 80%;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    background-color: white;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    position: relative;
+    bottom: 0;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+input:hover {
+    bottom: 3px;
+
+}
+
+#forgot {
+    width: 90%;
+    text-align: right;
+}
+
+button {
+    width: 80%;
+    font-size: 18px;
+    align-self: center;
+    background: rgb(0, 183, 255);
+    border: none;
+    padding: 20px 10px;
+    color: white;
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, rgb(139, 222, 255), rgb(0, 183, 255));
+}
+
+a {
+    color: rgb(0, 183, 255);
+}
+
+a:hover {
+    color: rgb(0, 125, 174);
+}
