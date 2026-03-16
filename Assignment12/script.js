@@ -1,9 +1,11 @@
+// Variables declared to store Amount, Principle, Rate of Interest, Number of times interest is compounded and time period
 let A, P, r, n, t;
-P = prompt("Enter principle")
-r = prompt("Enter rate of interest")
-n = prompt("Number of times interest compounded per year")
-t = prompt("Time period (in years)")
-A = P * (1 + (r / n)) ^ (n * t)
+P = Number(prompt("Enter principle"))
+r = Number(prompt("Enter rate of interest"))
+n = Number(prompt("Number of times interest compounded per year"))
+t = Number(prompt("Time period (in years)"))
 
-alert("Final amount=" + A)
-console.log("Final amount " + A)
+A = P * (1 + (r / n)) ** (n * t) // Formula for compound interest
+
+alert(`Final amount ${A}`)
+console.log(`Final amount ${A}`)
