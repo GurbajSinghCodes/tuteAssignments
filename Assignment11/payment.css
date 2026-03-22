@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    padding: 40px;
+}
+
+.right,
+.left {
+    flex: 1;
+}
+
+.heading {
+    font-weight: 800;
+    color: gray;
+    font-size: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+legend {
+    font-size: 15px;
+
+}
+
+.payment-labels {
+    font-size: 15px;
+    padding: 10px;
+    display: block;
+}
+
+.payment-inputs {
+    height: 30px;
+    width: 90%;
+    background-color: rgba(128, 128, 128, 0.078);
+    border: 0;
+    outline: 0;
+    padding: 10px;
+}
+
+.payment-inputs::placeholder {
+    color: gray;
+}
+
+.pay-options {
+    display: flex;
+    gap: 10px;
+}
+
+
+.card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#credit-card {
+    border-color: orange;
+    color: orange;
+}
+
+#credit-card img {
+    filter: invert(1) sepia(1) saturate(100) hue-rotate(310deg);
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card img {
+    width: 20px;
+}
+
+.section-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-inputs input {
+    width: 90%;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background: url(https://tse1.mm.bing.net/th/id/OIP.LupfaVSgNmCSUVnE04GwiwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3);
+        background-size: cover;
+    }
+
+    .hero {
+        display: flex;
+        align-items: center;
+        padding: 0px 50px;
+        flex: 1;
+    }
+
+    .left,
+    .right {
+        max-width: 50vw;
+    }
+
+
+    .left .logo img {
+        width: 300px;
+        margin: 0;
+    }
+
+    .heading h1 {
+        font-size: 60px;
+    }
+
+    .heading section {
+        color: rgb(243, 158, 0);
+    }
+
+    .left .paragraph {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    #shop-now {
+        display: inline-block;
+        background-color: rgb(30, 30, 30);
+        color: white;
+        border-radius: 30px;
+        padding: 10px 30px;
+        margin: 20px;
+        font-size: 15px;
+        transition: all 0.2s ease;
+        border: 2px solid transparent;
+        text-decoration: none;
+
+    }
+
+    #shop-now:hover {
+        background-color: transparent;
+        border: 2px solid black;
+        color: black;
+    }
+
+    /* footer sytles */
+    footer {
+        height: 90px;
+        background-color: rgb(255, 170, 14);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        color: white;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .footeritems {
+        display: flex;
+        gap: 15px;
+    }
+
+    .footeritems img {
+        height: 50px;
+        filter: invert(1);
+    }
+
+    .footertext {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footeritems .top {
+        font-size: 25px;
+        font-weight: 550;
+    }
+
+    .footeritems .down {
+        font-size: 16px;
+    }
+</style>
+
+
+<body>
+    <nav>
+        <div class="logo">Thala 7!</div>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Brands</a></li>
+            <li><a href="">More</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <div class="search">
+                <label for="search"><img id="search-icon" src="assets/search.png" alt=""></label>
+                <input type="text" id="search" placeholder="Search here...">
+            </div>
+            <div class="cart">
+                <a href="shopping-cart.html" class="cart-icon">
+                    <img src="assets/cart.png" alt="" class="cart-logo">
+                </a>
+                <div class="cart-count">3</div>
+            </div>
+            <div class="pp">
+                <img src="assets/pp.png" alt="">
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+
+        <aside class="left">
+            <div class="logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="heading">
+                <h1>7!! Thala For a <section>Reason!</section>
+                </h1>
+            </div>
+            <div class="paragraph">
+                Ready for the smash? Experience the revolution, offering a lightweight cushion that propels you to leap
+                and lunge with ease.
+            </div>
+            <a id="shop-now" href="product_display.html">Shop Now</a>
+        </aside>
+        <aside class="right">
+            <div class="image"><img src="assets/shoes/shoes2.png" alt=""></div>
+        </aside>
+    </section>
+    <footer>
+        <div class="footeritems">
+            <div class="footerimages">
+                <img src="/assets/footersymbols/reviews.png" alt="">
+            </div>
+            <div class="footertext">
+                <span class="top">2k+</span>
+                <span class="down">Reviews</span>
+            </div>
+        </div>
+        <div class="footeritems">
+            <div class="footerimages">
+                <img src="assets/footersymbols/customer.png" alt="">
+            </div>
+            <div class="footertext">
+                <span class="top">30k+</span>
+                <span class="down">Customers</span>
+            </div>
+        </div>
+        <div class="footeritems">
+            <div class="footerimages">
+                <img src="assets/footersymbols/high-quality.png" alt="">
+            </div>
+            <div class="footertext">
+                <span class="top">High</span>
+                <span class="down">Quality</span>
+            </div>
+        </div>
+        <div class="footeritems">
+            <div class="footerimages">
+                <img src="assets//footersymbols/rate.png" alt="">
+            </div>
+            <div class="footertext">
+                <span class="top">4.5/5</span>
+                <span class="down">Rating</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

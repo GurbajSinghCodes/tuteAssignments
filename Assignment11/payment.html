@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cartcss.css">
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="nav.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Thala 7!</div>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Brands</a></li>
+            <li><a href="">More</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <div class="search">
+                <label for="search"><img id="search-icon" src="assets/search.png" alt=""></label>
+                <input type="text" id="search" placeholder="Search here...">
+            </div>
+            <div class="cart">
+                <a href="shopping-cart.html" class="cart-icon">
+                    <img src="assets/cart.png" alt="" class="cart-logo">
+                </a>
+                <div class="cart-count">3</div>
+            </div>
+            <div class="pp">
+                <img src="assets/pp.png" alt="">
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+
+        <div class="left">
+            <div class="heading">Checkout</div>
+            <form action="">
+
+                <legend>Contact Details</legend>
+                <div>
+
+                    <label class="payment-labels" for="email">Email ID</label><input class="payment-inputs" type="email"
+                        name="" id="email" placeholder="abc@hotmail.com">
+                </div>
+                <div> <label class="payment-labels" for="Payment">Payment</label>
+                    <div class="pay-options">
+                        <div class="card" id="credit-card"><img src="assets/credit-card.png" alt="">Credit Card</div>
+                        <div class="card"><img src="assets/bank.png" alt="">Bank</div>
+                        <div class="card"><img src="assets/bitcoin.png" alt="">Bitcoin</div>
+                        <div class="card"><img src="assets/dots.png" alt=""></div>
+                    </div>
+                </div>
+                <div>
+
+                    <label class="payment-labels" for="number">Card Number</label><input class="payment-inputs"
+                        type="number" name="" id="number" placeholder="0000 0000 0000 0000">
+                </div>
+                <div class="section-inputs">
+                    <div>
+
+                        <label class="payment-labels" for="expiry">Expiry</label><input class="payment-inputs"
+                            type="date" name="" id="expiry" placeholder="MM/YY">
+                    </div>
+                    <div>
+
+                        <label class="payment-labels" for="cvv">CVV</label><input class="payment-inputs" type="number"
+                            name="" id="cvv" placeholder="***">
+                    </div>
+                </div>
+                <div class="section-inputs">
+                    <div>
+
+                        <label class="payment-labels" for="country">Country</label><input class="payment-inputs"
+                            type="text" name="" id="country" placeholder="India">
+                    </div>
+                    <div>
+
+                        <label class="payment-labels" for="zip">Zip</label><input class="payment-inputs" type="number"
+                            name="" id="zip" placeholder="XXXXXX">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <div class="right">
+            <div class="code-head">Enter Coupon Code</div>
+            <div class="coupon-mid">
+                <input type="text" placeholder="COUPON CODE">
+                <a href="" id="coupon-button"> Apply Coupon</a>
+            </div>
+            <table class="checkout">
+                <tr>
+                    <td>Sub Total</td>
+                    <td>&#8377;11,097</td>
+                </tr>
+                <tr>
+                    <td>Taxes(if applicable)</td>
+                    <td>&#8377;199</td>
+
+                </tr>
+                <tr>
+                    <td>Discount</td>
+                    <td>&#8377;0</td>
+
+                </tr>
+                <tfoot>
+                    <th>Total</th>
+                    <th>&#8377;11,296</th>
+                </tfoot>
+            </table>
+
+            <a href="" class="pay-now">Pay Now &#8377;11,296</a>
+            <div class="secure-images">
+                <img src="assets/secure.png" alt="">
+                <img src="assets/razorpay.png" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

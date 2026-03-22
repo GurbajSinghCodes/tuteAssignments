@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cartcss.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Thala 7!</div>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Brands</a></li>
+            <li><a href="">More</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <div class="search">
+                <label for="search"><img id="search-icon" src="assets/search.png" alt=""></label>
+                <input type="text" id="search" placeholder="Search here...">
+            </div>
+            <div class="cart">
+                <a href="shopping-cart.html" class="cart-icon">
+                    <img src="assets/cart.png" alt="" class="cart-logo">
+                </a>
+                <div class="cart-count">3</div>
+            </div>
+            <div class="pp">
+                <img src="assets/pp.png" alt="">
+            </div>
+        </div>
+    </nav>
+    <div class="shopping-cart">
+        <div class="heading">Shopping Cart</div>
+        <div class="main">
+            <div class="left">
+                <div class="row" id="row-header">
+                    <li>Product</li>
+                    <li>Quantity</li>
+                    <li>Price</li>
+                    <li></li>
+                </div>
+                <hr>
+                <div class="row" id="row1">
+                    <li>Seven by MS Dhoni</li>
+                    <li>- 1 +</li>
+                    <li>&#8377; 3,999</li>
+                    <li>✖</li>
+                </div>
+                <div class="row" id="row2">
+                    <li>Seven by MS Dhoni</li>
+                    <li>- 1 +</li>
+                    <li>&#8377; 2,999</li>
+                    <li>✖</li>
+                </div>
+                <div class="row" id="row3">
+                    <li>Seven by MS Dhoni</li>
+                    <li>- 1 +</li>
+                    <li>&#8377; 5,999</li>
+                    <li>✖</li>
+                </div>
+            </div>
+            <div class="right">
+                <div class="code-head">Enter Coupon Code</div>
+                <div class="coupon-mid">
+                    <input type="text" placeholder="COUPON CODE">
+                    <a href="" id="coupon-button"> Apply Coupon</a>
+                </div>
+                <table class="checkout">
+                    <tr>
+                        <td>Sub Total</td>
+                        <td>&#8377;11,097</td>
+                    </tr>
+                    <tr>
+                        <td>Taxes(if applicable)</td>
+                        <td>&#8377;199</td>
+
+                    </tr>
+                    <tr>
+                        <td>Discount</td>
+                        <td>&#8377;0</td>
+
+                    </tr>
+                    <tfoot>
+                        <th>Total</th>
+                        <th>&#8377;11,296</th>
+                    </tfoot>
+                </table>
+
+                <a href="payment.html" class="pay-now">Pay Now &#8377;11,296</a>
+                <div class="secure-images">
+                    <img src="assets/secure.png" alt="">
+                    <img src="assets/razorpay.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="back"> <a href="index.html" id="back">&lt;&nbsp; Continue Shopping</a></div>
+    </div>
+</body>
+
+</html>
